@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: #121212;
+    color: #0f0;
+  }
+  header, footer {
+    background-color: #1c1c1c;
+    color: #0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  .content {
+    padding: 20px;
+  }
+  .script {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  .script:hover {
+    transform: scale(1.02);
+  }
+  .script h2 {
+    padding-bottom: 10px;
+  }
+  .feature {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  .feature:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .feature img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .feature-description {
+    margin-top: 10px;
+  }
+  
+  /* Fahrenheit */
+  .fahrenheit {
+    background-color: #300000;
+    color: #ff5733;
+    border: 1px solid #ff5733;
+  }
+  .fahrenheit h2 {
+    border-bottom: 2px solid #ff5733;
+  }
+  .fahrenheit .feature {
+    border: 1px solid #ff5733;
+  }
+  
+  /* Celsius */
+  .celsius {
+    background-color: #001e2d;
+    color: #33c6ff;
+    border: 1px solid #33c6ff;
+  }
+  .celsius h2 {
+    border-bottom: 2px solid #33c6ff;
+  }
+  .celsius .feature {
+    border: 1px solid #33c6ff;
+  }
+  
